@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "function",
+  "definition": {
+    "code": "gamerule sendCommandFeedback false\nexecute in create_dimensions:the_mim run tp @p @e[type=armor_stand,limit=1]",
+    "name": "idk",
+    "namespace": "mod"
+  }
+}

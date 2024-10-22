@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "create:brass_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_dimensions:mim_transmitter"
+    }
+  ]
+}

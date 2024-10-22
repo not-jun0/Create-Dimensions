@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:LandOfTheMim"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.AIR"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "The Mim Portal Igniter",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": true
+  }
+}

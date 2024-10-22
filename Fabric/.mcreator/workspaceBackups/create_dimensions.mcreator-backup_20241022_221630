@@ -1,0 +1,187 @@
+{
+  "mod_elements": [
+    {
+      "name": "LandOfTheMim",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_of_the_mim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_dimensions/worldgen/biome/land_of_the_mim.json",
+          "src/main/resources/data/create_dimensions/worldgen/placed_feature/land_of_the_mim_tree.json",
+          "src/main/resources/data/create_dimensions/worldgen/configured_feature/land_of_the_mim_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "TheMim",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_mim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_dimensions/dimension/the_mim.json",
+          "src/main/resources/data/create_dimensions/dimension_type/the_mim.json"
+        ]
+      }
+    },
+    {
+      "name": "MimTransmitterRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mim_transmitter_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createdimensions/procedures/MimTransmitterRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MimTransmitter",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mim_transmitter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_dimensions/models/item/mim_transmitter.json",
+          "src/main/java/net/mcreator/createdimensions/item/MimTransmitterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheHub",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "the_hub",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_dimensions/worldgen/template_pool/the_hub.json",
+          "src/main/resources/data/create_dimensions/worldgen/structure_set/the_hub.json",
+          "src/main/resources/data/create_dimensions/worldgen/structure/the_hub.json"
+        ]
+      }
+    },
+    {
+      "name": "IDK",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_dimensions/functions/idk.mcfunction"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Placed",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "TeleX",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "TeleZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "TeleY",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "windsound",
+      "files": [
+        "smooth-cold-wind-looped-135538"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "mimrandom",
+      "files": [
+        "mimrandom"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.windsound": "",
+      "biome.create_dimensions.land_of_the_mim": "Land Of The Mim",
+      "subtitles.mimrandom": "",
+      "item.create_dimensions.mim_transmitter": "Mim Transmitter"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_dimensions",
+    "modName": "Create Dimensions",
+    "version": "1.0.0",
+    "author": "NotJuno",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "new_create_logo_background",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.createdimensions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "net/mcreator/createdimensions/mixins/CreateDimensionsModRepairItemRecipeMixin": {
+      "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_8566;Lnet/minecraft/class_5455;)Lnet/minecraft/class_1799;"
+    },
+    "net/mcreator/createdimensions/mixins/NoiseGeneratorSettingsAccess": {
+      "surfaceRule": "comp_478:Lnet/minecraft/class_6686$class_6708;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/mcreator/createdimensions/mixins/CreateDimensionsModRepairItemRecipeMixin": {
+        "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_8566;Lnet/minecraft/class_5455;)Lnet/minecraft/class_1799;"
+      },
+      "net/mcreator/createdimensions/mixins/NoiseGeneratorSettingsAccess": {
+        "surfaceRule": "comp_478:Lnet/minecraft/class_6686$class_6708;"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "create_dimensions:the_hub",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "salt": 1360765761,
+    "distance": 0,
+    "spread": 0,
+    "count": 1,
+    "preferred_biomes": "create_dimensions:land_of_the_mim"
+  }
+}

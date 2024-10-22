@@ -1,0 +1,20 @@
+{
+  "windsound": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "create_dimensions:smooth-cold-wind-looped-135538",
+        "stream": false
+      }
+    ]
+  },
+  "mimrandom": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "create_dimensions:mimrandom",
+        "stream": false
+      }
+    ]
+  }
+}
